@@ -21,7 +21,7 @@ notebooks/
   Coil_Optimization.ipynb   # Optimize coil parameters (BFGS) to minimize inhomogeneity
   Sum_BFields.ipynb         # Compose coil fields + external field and evaluate homogeneity
 
-assets/                     # Example figures exported from notebooks (optional)
+assets/                     # Example figures exported from notebooks
 README.md
 requirements.txt
 .gitignore
