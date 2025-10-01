@@ -1,6 +1,6 @@
 # Shim Coil Optimization for Enhanced Magnetic Field Homogeneity (EPR)
 
-This repository contains the code from my BSc Physics project on designing and optimizing shim coils to improve magnetic field homogeneity in a high-field **Electron Paramagnetic Resonance (EPR)** spectrometer.  
+This repository contains the code from my BSc Physics project on designing and optimizing shim coils to improve magnetic field homogeneity in a high-field **Electron Paramagnetic Resonance (EPR)** spectrometer.  Completed in 2020 using the HiPER EPR Spectrometer at the University of St Andrews.
 
 The project involved:
 - Fitting experimental magnetic field data with polynomials  
@@ -8,7 +8,7 @@ The project involved:
 - Optimizing coil geometries and currents with **SciPy’s BFGS algorithm**  
 - Visualizing 3D coil configurations to check manufacturability  
 
-**Relevance:** This project demonstrates quantitative modeling, optimization under constraints, and simulation of complex systems — skills that are directly applicable to quantitative finance and other data-driven fields.
+**Relevance:** This project demonstrates quantitative modeling, optimization under constraints, and simulation of complex systems.
 
 ---
 
@@ -35,7 +35,7 @@ LICENSE
 Clone the repository and set up a virtual environment:
 
 ```bash
-git clone https://github.com/<your-username>/shimcoil-epr-optimization.git
+git clone https://github.com/joshdpaterson/Shim-Coil-Optimization-for-Enhanced-Magnetic-Field-Homogeneity-EPR.git
 cd shimcoil-epr-optimization
 python -m venv .venv
 source .venv/bin/activate        # On Windows: .venv\Scripts\activate
