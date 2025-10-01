@@ -35,7 +35,7 @@ LICENSE
 Clone the repository and set up a virtual environment:
 
 ```bash
-git clone https://github.com/joshdpaterson/Shim-Coil-Optimization-for-Enhanced-Magnetic-Field-Homogeneity-EPR.git
+git clone https://github.com/joshdpaterson/Shim-Coil-Optimization-for-Enhanced-Magnetic-Field-Homogeneity-EPR
 cd shimcoil-epr-optimization
 python -m venv .venv
 source .venv/bin/activate        # On Windows: .venv\Scripts\activate
