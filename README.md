@@ -1,4 +1,3 @@
-# Radioactivity-Analysis-Code
 # Shim Coil Optimization for Enhanced Magnetic Field Homogeneity (EPR)
 
 This repository contains the code from my BSc Physics project on designing and optimizing shim coils to improve magnetic field homogeneity in a high-field **Electron Paramagnetic Resonance (EPR)** spectrometer.  
@@ -67,18 +66,6 @@ Open the notebooks in `notebooks/` and run them in sequence.
 ### 3D Coil Visualization (`3D_Coil_Plotting.ipynb`)
 - Produces 3D plots of coil geometries for manufacturability checks.  
 - Useful for identifying overlaps or impractical designs.  
-
----
-
-## Example Outputs
-
-Figures can be exported from the notebooks and placed in the `assets/` folder. For example:
-
-<!--
-![Polynomial fit of external field](assets/field-polynomial.png)
-![Corrected field across sample window](assets/corrected-field.png)
-![3D visualization of coil design](assets/coil-3d.png)
--->
 
 ---
 
