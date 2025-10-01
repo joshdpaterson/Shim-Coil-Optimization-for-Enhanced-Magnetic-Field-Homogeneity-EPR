@@ -35,7 +35,7 @@ Clone the repository and set up a virtual environment:
 
 ```bash
 git clone https://github.com/joshdpaterson/Shim-Coil-Optimization-for-Enhanced-Magnetic-Field-Homogeneity-EPR
-cd shimcoil-epr-optimization
+cd Shim-Coil-Optimization-for-Enhanced-Magnetic-Field-Homogeneity-EPR
 python -m venv .venv
 source .venv/bin/activate        # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -83,6 +83,17 @@ Open the notebooks in `notebooks/` and run them in sequence.
 - Optimization under physical and experimental constraints  
 - Local vs. global minima in multi-parameter systems  
 - Homogeneity metrics tailored to sample volume and experiment design  
+
+---
+
+## Results
+
+Using the optimization framework developed in this project, coil designs were produced that significantly improved magnetic field homogeneity compared to earlier approaches.
+
+- The optimized 5-coil configuration achieved an **average field error of only 0.029 G** across a sample region of *[-60 mm, –5 mm]*, compared with errors greater than 0.4 G in previous designs.  
+- This corresponds to a relative homogeneity of approximately **1 part in 10⁶** within the sample volume, given the ~3 T external field.  
+- The design also allowed a **larger usable sample volume**, roughly doubling the effective region compared to previous holders.  
+- These improvements were confirmed in simulation and partially validated experimentally, showing narrower EPR linewidths when shimming was applied.  
 
 ---
 
