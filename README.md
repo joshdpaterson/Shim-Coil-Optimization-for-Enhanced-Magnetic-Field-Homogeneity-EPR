@@ -24,7 +24,6 @@ notebooks/
 assets/                     # Example figures exported from notebooks
 README.md
 requirements.txt
-.gitignore
 LICENSE
 ```
 
